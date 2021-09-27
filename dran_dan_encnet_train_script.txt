@@ -1,0 +1,21 @@
+#DAN swin-small 1k / swin-base 1k
+tools/dist_train.sh configs/swin/danet_swin_small_patch4_window7.py 1 --options model.pretrained=./swin_weights/swin_small_patch4_window7_224.pth
+
+tools/dist_train.sh configs/swin/danet_swin_base_patch4_window7.py 1 --options model.pretrained=./swin_weights/swin_base_patch4_window7_224.pth
+
+#DRAN swin-small 1k / swin-base 1k / swan-base 22k
+tools/dist_train.sh configs/swin/dranet_swin_small_patch4_window7.py 1 --options model.pretrained=./swin_weights/swin_small_patch4_window7_224.pth
+
+tools/dist_train.sh configs/swin/dranet_swin_base_patch4_window7.py 1 --options model.pretrained=./swin_weights/swin_base_patch4_window7_224.pth
+
+tools/dist_train.sh configs/swin/dranet_swin_base_patch4_window7.py 1 --options model.pretrained=./swin_weights/swin_base_patch4_window7_224_22k.pth
+
+#ENC swin-small 1k / swin-base 1k
+tools/dist_train.sh configs/swin/encnet_swin_small_patch4_window7.py 1 --options model.pretrained=./swin_weights/swin_small_patch4_window7_224.pth
+
+tools/dist_train.sh configs/swin/encnet_swin_base_patch4_window7.py 1 --options model.pretrained=./swin_weights/swin_base_patch4_window7_224.pth
+
+#TEST on swin-small + DraNet 
+tools/dist_test.sh work_dirs/swin_dran_chicago_paris/dranet_swin_small_patch4_window7.py\
+    work_dirs/swin_dran_chicago_paris/iter_12500.pth \
+    1 --eval mIoU 
