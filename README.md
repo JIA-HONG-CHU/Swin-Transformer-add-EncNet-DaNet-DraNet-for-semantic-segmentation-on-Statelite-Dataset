@@ -23,7 +23,7 @@ The purpose of the experiment is to see whether training Transformer in (same co
 
  ### My model setting
 
-1. Model: Swin-small + Upernet \ Resnet101 + Upernet
+1. Model: (Swin-small\base) + Upernet \ Resnet101 + Upernet
 2. Batch training size: 8
 3. Training round: 120000 iterations (1 iteration is 1 batch size)
 4. Computer equipment: A100 or 1080Ti
