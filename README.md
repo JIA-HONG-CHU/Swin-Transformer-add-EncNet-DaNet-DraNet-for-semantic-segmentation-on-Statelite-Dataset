@@ -53,7 +53,7 @@ As shown in the figure:
 
 ## Training
 e.g. 
-Train Swin-T + Dran
+Train Swin-small + Dran
 ```
 tools/dist_train.sh configs/swin/dranet_swin_small_patch4_window7.py 1 --options  model.pretrained=./swin_weights/swin_small_patch4_window7_224.pth
 ```
