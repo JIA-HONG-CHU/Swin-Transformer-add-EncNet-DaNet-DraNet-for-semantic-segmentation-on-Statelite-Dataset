@@ -2,7 +2,7 @@
 
 This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0).
 
-This repo contains that I used DaNet \ EncNet \ DraNet to add behind the backbone of swin-transoformer and do experiments on the satellite dataset.
+This repo contains that I used DaNet \ EncNet \ DraNet to add behind the backbone of swin-transformer and do experiments on the satellite dataset.
 The purpose of the experiment is to see whether training Transformer in (same country, different seasons) or (same season, different countries) is better than CNN generalization ability?
 
 
