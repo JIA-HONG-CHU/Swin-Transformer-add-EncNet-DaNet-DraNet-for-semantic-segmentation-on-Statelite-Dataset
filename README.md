@@ -58,6 +58,14 @@ Train Swin-small + Dran
 tools/dist_train.sh configs/swin/dranet_swin_small_patch4_window7.py 1 --options  model.pretrained=./swin_weights/swin_small_patch4_window7_224.pth
 ```
 
+## Testing
+e.g.
+Test Swin-small + Dran
+```
+tools/dist_test.sh work_dirs/swin_dran_chicago_paris/dranet_swin_small_patch4_window7.py work_dirs/swin_dran_chicago_paris/iter_12500.pth \
+    1 --eval mIoU --eval-options efficient_test=True
+```
+
 You can see more training code on dran_dan_encnet_train_script.txt
 
 
