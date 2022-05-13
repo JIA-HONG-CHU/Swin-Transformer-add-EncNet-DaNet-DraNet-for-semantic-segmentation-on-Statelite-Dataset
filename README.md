@@ -5,7 +5,13 @@ This repo contains the supported code and configuration files to reproduce seman
 This repo contains that I used DaNet \ EncNet \ DraNet to add behind the backbone of swin-transformer and do experiments on the satellite dataset.
 The purpose of the experiment is to see whether training Transformer in (different country, different seasons) or (same season, different countries) is better than CNN generalization ability?
 
+## Updates
 
+***05/14/2022***
+
+`News`: 
+
+1. Updata SwinV2-L+Upernet
 
 ## Data, My Data pre-processing, My model setting
 
