@@ -20,7 +20,7 @@ tools/dist_train.sh configs/swin/upernet_swinv2_large_patch4_window12_512x512_16
 ## Data, My Data pre-processing, My model setting
 
 ### Data
-# Data prepare is very simple u can look my all_city folder, it contains few images and labels that should be look like. The reason why the picture of the label is completely black is because each pixel represents a label value. For example, in my training case, background represents 0\ buildings represent 1\ roads represent 2.
+Data prepare is very simple u can look my all_city folder, it contains few images and labels that should be look like. The reason why the picture of the label is completely black is because each pixel represents a label value. For example, in my training case, background represents 0\ buildings represent 1\ roads represent 2.
 
  [CITY-OSM ](https://zenodo.org/record/1154821#.YVFomtMzYUr) 
  This dataset contains satellite data of six countries, and there are three categories to be classified. Background, buildings and roads
