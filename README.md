@@ -58,7 +58,7 @@ As shown in the figure:
 3. pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 4. pip install mmcv-full==1.3.0 mmsegmentation==0.11.0
 5. pip install scipy timm==0.3.2
-‘’‘
+
 When u encounted -> ImportError: libGL.so.1: cannot open shared object file: No such file or directory
 1. apt-get update 
 2. apt-get install ffmpeg libsm6 libxext6  -y
