@@ -12,6 +12,10 @@ The purpose of the experiment is to see whether training Transformer in (differe
 `News`: 
 
 1. Updata SwinV2-L+Upernet
+Training Code: 
+```
+tools/dist_train.sh configs/swin/upernet_swinv2_large_patch4_window12_512x512_160k_ade20k.py 1 --options model.pretrained=./swinv2_large_patch4_window12to24_192to384_22kto1k_ft.pth
+```
 
 ## Data, My Data pre-processing, My model setting
 
